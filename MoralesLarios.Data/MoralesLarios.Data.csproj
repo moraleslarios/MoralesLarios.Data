@@ -31,17 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Dapper.1.50.2\lib\net451\Dapper.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -53,33 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dapper\DPGenericRepository.cs" />
-    <Compile Include="Dapper\IDPGenericRepository.cs" />
-    <Compile Include="Dapper\Infrastructure\IDentityInspector.cs" />
-    <Compile Include="Dapper\Infrastructure\IIDentityInspector.cs" />
-    <Compile Include="Dapper\Infrastructure\IPartsQryGenerator.cs" />
-    <Compile Include="Dapper\Infrastructure\PartsQryGenerator.cs" />
-    <Compile Include="EntityFramework\EFGenericRepository.cs" />
-    <Compile Include="EntityFramework\IEFGenericRepository.cs" />
-    <Compile Include="EntityFramework\IIncludeInjector.cs" />
-    <Compile Include="EntityFramework\IncludeInjector.cs" />
-    <Compile Include="EntityFramework\Infrastructure\QryParametersManager.cs" />
     <Compile Include="Helper\ParameterValidator.cs" />
-    <Compile Include="EntityFramework\Infrastructure\IPKExtractor.cs" />
-    <Compile Include="EntityFramework\Infrastructure\PKExtractor.cs" />
     <Compile Include="IGenericRepository.cs" />
-    <Compile Include="EntityFramework\Infrastructure\IQryParametersManager.cs" />
-    <Compile Include="Mix\MLGenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.23.0.1857\analyzers\Google.Protobuf.dll" />
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.23.0.1857\analyzers\SonarAnalyzer.CSharp.dll" />
-    <Analyzer Include="..\packages\SonarAnalyzer.CSharp.1.23.0.1857\analyzers\SonarAnalyzer.dll" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

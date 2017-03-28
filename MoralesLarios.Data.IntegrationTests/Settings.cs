@@ -8,7 +8,7 @@ namespace MoralesLarios.Data.IntegrationTests
 {
     public static class Settings
     {
-        //public static string connectionString = "Data Source=I7\\LOCAL;Initial Catalog=CECAEstaticos;Persist Security Info=True;User ID=sa;Password=local";
-        public static string connectionString = "Data Source=CSTREXE1DES.DOMCITRIX.LOC;Initial Catalog=CECAEstaticos;Integrated Security=True";
+        public static string connectionString = "Data Source=I7\\LOCAL;Initial Catalog=CECAEstaticos;Persist Security Info=True;User ID=sa;Password=local";
+        //public static string connectionString = "Data Source=CSTREXE1DES.DOMCITRIX.LOC;Initial Catalog=CECAEstaticos;Integrated Security=True";
     }
 }

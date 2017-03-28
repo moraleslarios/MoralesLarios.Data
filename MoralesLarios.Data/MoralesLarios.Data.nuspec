@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MoralesLarios.Data</id>
+    <version>1.0.0.1</version>
+    <title>Data Access Libraries and Utilities</title>
+    <authors>Juan Francisco Morales Larios</authors>
+    <owners>Juan Francisco Morales Larios</owners>
+    <projectUrl>https://github.com/moraleslarios/MoralesLarios.Data</projectUrl>
+    <iconUrl>http://2.bp.blogspot.com/-B92m4H5FSsE/UmWiZCSWRCI/AAAAAAAADJk/NqpA0uXTaYM/s1600/Logo_largo.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utilities for Data Access. Generics Repositories for EntityFramework, Dapper and yoour fusion, etc.</description>
+    <releaseNotes>Version 1.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Morales Larios MoralesLarios Utilities GenericRepository Dapper EntityFramework</tags>
+  </metadata>
+</package>

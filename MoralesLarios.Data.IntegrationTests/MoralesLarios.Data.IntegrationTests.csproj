@@ -119,6 +119,18 @@
       <Project>{d5be59bc-81b7-45f0-9e34-c668a9848390}</Project>
       <Name>CKEstaticosDomain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MoralesLarios.Data.Dapper\MoralesLarios.Data.Dapper.csproj">
+      <Project>{9a30df1d-d99c-484e-812d-542340fc7889}</Project>
+      <Name>MoralesLarios.Data.Dapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoralesLarios.Data.EntityFramework\MoralesLarios.Data.EntityFramework.csproj">
+      <Project>{2251dc04-44b3-49f8-8f01-a07ddfe9bd42}</Project>
+      <Name>MoralesLarios.Data.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoralesLarios.Data.Mix\MoralesLarios.Data.Mix.csproj">
+      <Project>{671e0abb-43c2-448f-9301-3fd62c7a8212}</Project>
+      <Name>MoralesLarios.Data.Mix</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MoralesLarios.Data\MoralesLarios.Data.csproj">
       <Project>{f40a921e-2182-4542-8690-59b22b5fec80}</Project>
       <Name>MoralesLarios.Data</Name>
