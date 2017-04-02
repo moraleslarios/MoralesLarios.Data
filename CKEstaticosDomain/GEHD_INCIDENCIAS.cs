@@ -6,6 +6,7 @@ namespace CKEstaticosDomain
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+    [Serializable]
     public partial class GEHD_INCIDENCIAS
     {
         [Key]

@@ -567,6 +567,18 @@ namespace MoralesLarios.Data.IntegrationTests.Dapper
 
 
         [Fact]
+        public void PruebasVisualizer()
+        {
+            instance = new DPGenericRepository<GEHD_INCIDENCIAS>(conn);
+
+            var allData = instance.All();
+        }
+
+
+
+
+
+        [Fact]
         public void Remove_GoodEntity_OK()
         {
             object key = new { IdIncidencia = 141486 };
