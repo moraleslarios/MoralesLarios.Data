@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>MoralesLarios.Data.Dapper</id>
-    <version>1.0.0.5</version>
+    <version>1.0.0.3</version>
     <title>Data Access Dapper Utilities</title>
     <authors>Juan Francisco Morales Larios</authors>
     <owners>Juan Francisco Morales Larios</owners>
@@ -13,9 +13,12 @@
     <releaseNotes>Version 1.0</releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Morales Larios MoralesLarios Utilities Generic Repositoy GenericRepository Dapper</tags>
-	<dependencies>
-		<dependency id="Dapper" version="1.50.2" />
-		<dependency id="MoralesLarios.Data" version="1.0.0.2" />
-	</dependencies>
+
+
   </metadata>
+  <files>
+    <file src="lib\net45\MoralesLarios.Data.dll" target="lib" />
+	<file src="lib\net45\Dapper.dll" target="lib" />
+	<file src="lib\net45\Dapper.xml" target="xml" />
+  </files>
 </package>

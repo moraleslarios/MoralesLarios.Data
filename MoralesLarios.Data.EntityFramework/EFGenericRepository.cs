@@ -59,7 +59,7 @@ namespace MoralesLarios.Data.EntityFramework
         /// </summary>
         /// <param name="includes"></param>
         /// <returns></returns>
-        public IEnumerable<TEntity> All() => All();
+        public IEnumerable<TEntity> All() => All(new string[] { });
 
 
         /// <summary>
@@ -80,7 +80,7 @@ namespace MoralesLarios.Data.EntityFramework
         /// </summary>
         /// <param name="includes"></param>
         /// <returns></returns>
-        public Task<IEnumerable<TEntity>> AllAsync() => AllAsync();
+        public Task<IEnumerable<TEntity>> AllAsync() => AllAsync(new string[] { });
 
 
         #endregion

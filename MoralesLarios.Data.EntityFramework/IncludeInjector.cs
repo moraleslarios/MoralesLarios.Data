@@ -13,7 +13,7 @@ namespace MoralesLarios.Data.EntityFramework
         public DbQuery<TEntity> InjectorIncludes(DbQuery<TEntity> dbQry, params string[] includes)
         {
             ParameterValidator.ValidateObject(dbQry, nameof(dbQry));
-            ParameterValidator.ValidateEnumerableString(includes, nameof(includes));
+            //ParameterValidator.ValidateEnumerableString(includes, nameof(includes));
 
             DbQuery<TEntity> result = dbQry;
 

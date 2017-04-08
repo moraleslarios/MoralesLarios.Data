@@ -434,6 +434,19 @@ namespace MoralesLarios.Data.IntegrationTests.EntityFramework
         }
 
         [Fact]
+        public void Remove_ClientForDataBase_GoodKey_OK()
+        {
+            //var entity = new Clientes { IdCliente = 1947, Nombre = "555555", Direccion = "to remove", CIF = "000000009 ", Mail = "aa@eee.es" };
+
+            var cliente = instance.Find(1989);
+
+
+
+            instance.Remove(cliente);
+        }
+
+
+        [Fact]
         public async void RemoveAsync_ForEntity_GoodKey_OK()
         {
             var entity = new Clientes { IdCliente = 1947, Nombre = "555555", Direccion = "to remove", CIF = "000000009 ", Mail = "aa@eee.es" };
