@@ -25,6 +25,8 @@ namespace MoralesLarios.Data.IntegrationTests.EntityFramework
         {
             context = new DBModel();
 
+            context.Configuration.ProxyCreationEnabled = false;
+
             instance = new EFGenericRepository<Clientes>(context);
         }
 

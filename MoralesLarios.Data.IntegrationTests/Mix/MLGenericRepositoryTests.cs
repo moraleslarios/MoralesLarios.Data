@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using MoralesLarios.Data.IntegrationTests.Data;
-using CKEstaticosDomain;
+using DataDomain;
 using System.Linq.Expressions;
 
 namespace MoralesLarios.Data.IntegrationTests.Mix

@@ -1,4 +1,4 @@
-namespace CKEstaticosDomain
+namespace DataDomain
 {
     using System;
     using System.Collections.Generic;

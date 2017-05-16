@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoralesLarios.Data.Integrat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoralesLarios.Tests", "MoralesLarios.Tests\MoralesLarios.Tests.csproj", "{DE818E98-A24E-4A48-BD37-B5CD0CC4C5AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKEstaticosDomain", "CKEstaticosDomain\CKEstaticosDomain.csproj", "{D5BE59BC-81B7-45F0-9E34-C668A9848390}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDomain", "CKEstaticosDomain\DataDomain.csproj", "{D5BE59BC-81B7-45F0-9E34-C668A9848390}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoralesLarios.Data.EntityFramework", "MoralesLarios.Data.EntityFramework\MoralesLarios.Data.EntityFramework.csproj", "{2251DC04-44B3-49F8-8F01-A07DDFE9BD42}"
 EndProject

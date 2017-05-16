@@ -1,4 +1,4 @@
-﻿using CKEstaticosDomain;
+﻿using DataDomain;
 using MoralesLarios.Data.Dapper.Infrastructure;
 using System;
 using System.Collections.Generic;

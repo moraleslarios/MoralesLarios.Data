@@ -115,9 +115,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CKEstaticosDomain\CKEstaticosDomain.csproj">
+    <ProjectReference Include="..\CKEstaticosDomain\DataDomain.csproj">
       <Project>{d5be59bc-81b7-45f0-9e34-c668a9848390}</Project>
-      <Name>CKEstaticosDomain</Name>
+      <Name>DataDomain</Name>
     </ProjectReference>
     <ProjectReference Include="..\MoralesLarios.Data.Dapper\MoralesLarios.Data.Dapper.csproj">
       <Project>{9a30df1d-d99c-484e-812d-542340fc7889}</Project>
