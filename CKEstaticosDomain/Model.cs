@@ -19,6 +19,7 @@ namespace DataDomain
 
 
 
+
         public virtual DbSet<GEIN_CORTES_SERVICIO> GEIN_CORTES_SERVICIO { get; set; }
 
 
